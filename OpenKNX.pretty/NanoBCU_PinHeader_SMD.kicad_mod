@@ -1,6 +1,6 @@
-(module NanoBCU_PinHeader_SMD (layer F.Cu) (tedit 6027BFED)
-  (descr "Konnekting MicroBCU2 Horizontal 2.54 SMD PinHeader/PinSocket 1x07")
-  (tags "KNX Konnekting BCU MicroBCU MicroBCU2 SMD")
+(module NanoBCU_PinHeader_SMD (layer F.Cu) (tedit 6205172A)
+  (descr "OpenKNX NanoBCU Horizontal 2.54 SMD PinHeader/PinSocket 1x07")
+  (tags "OpenKNX BCU NanoBCU SMD")
   (attr smd)
   (fp_text reference REF** (at -14.01 0.03) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -93,7 +93,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))
   )
-  (model ${MICROBCU2_3D}/NanoBCU_V00.10_wo_headers.step
+  (model ${OPENKNX_3D}/NanoBCU_V00.10_wo_headers.step
     (offset (xyz 1.3 -17.8 11.2))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

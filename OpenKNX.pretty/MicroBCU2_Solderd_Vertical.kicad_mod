@@ -1,4 +1,4 @@
-(module MicroBCU2_Solderd_Vertical (layer F.Cu) (tedit 5FF187E0)
+(module MicroBCU2_Solderd_Vertical (layer F.Cu) (tedit 6205171C)
   (descr "Konnekting MicroBCU2 Horizontal 2.54 PinSocket/PinHeader 1x07")
   (tags "KNX Konnekting BCU MicroBCU MicroBCU2")
   (fp_text reference REF** (at 4.445 -3.81) (layer F.SilkS)
@@ -49,7 +49,7 @@
   (pad 5 thru_hole oval (at 0 10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 6 thru_hole oval (at 0 12.7) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 7 thru_hole oval (at 0 15.24) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (model ${MICROBCU2_3D}/MicroBCU2_V00.21_wo_headers.step
+  (model ${OPENKNX_3D}/MicroBCU2_V00.21_wo_headers.step
     (offset (xyz 5.5 -17.8 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 90 180))
