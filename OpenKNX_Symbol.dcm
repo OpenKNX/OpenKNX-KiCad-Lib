@@ -6,4 +6,8 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP OpenKNX_UP1-Controller2040
+K OpenKNX KNX
+$ENDCMP
+#
 #End Doc Library
