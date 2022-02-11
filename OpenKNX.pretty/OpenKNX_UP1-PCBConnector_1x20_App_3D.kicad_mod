@@ -27,7 +27,7 @@
   (pad 18 smd rect (at 21.59 0 90) (size 3 0.8) (layers F.Cu F.Paste F.Mask))
   (pad 19 smd rect (at 22.86 0 90) (size 3 0.8) (layers F.Cu F.Paste F.Mask))
   (pad 20 smd rect (at 24.13 0 90) (size 3 0.8) (layers F.Cu F.Paste F.Mask))
-  (model ${OPENKNX_3D}/UP1-Controller2040_V00.01.step
+  (model ${OPENKNX_3D}/UP1-Controller2040_V00.02.step
     (offset (xyz 6.9 -42.2 -0.07000000000000001))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
