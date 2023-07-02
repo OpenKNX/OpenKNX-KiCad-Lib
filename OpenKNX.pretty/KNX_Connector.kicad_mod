@@ -1,4 +1,4 @@
-(module KNX_Connector (layer F.Cu) (tedit 5FE3AED0)
+(module KNX_Connector (layer F.Cu) (tedit 64A115B8)
   (descr "Through hole straight pin header, 2x05, 2.54mm pitch, double rows")
   (tags "Through hole pin header THT 2x05 2.54mm double row")
   (fp_text reference REF** (at -3.5 4.5) (layer F.SilkS)
@@ -38,9 +38,9 @@
   (fp_line (start -2.25 7) (end 3.25 7) (layer F.CrtYd) (width 0.12))
   (pad 1 thru_hole circle (at -0.4 2.55) (size 2.5 2.5) (drill 1.1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -0.4 -3.2) (size 2.5 2.5) (drill 1.1) (layers *.Cu *.Mask))
-  (model "${OPENKNX_3D}/243-212.stp"
-    (offset (xyz 3 5.8 0.1))
+  (model ${OPENKNX_3D}/243-212_RG.step
+    (offset (xyz -2.5 -2.5 -12.8))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 180))
+    (rotate (xyz 0 0 90))
   )
 )
