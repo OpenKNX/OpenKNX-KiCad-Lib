@@ -11,7 +11,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b7724dd0-3e15-4199-b449-267aee64b055)
   )
-  (fp_text user "NanoBCU2" (at 0.635 5.08 90 unlocked) (layer "B.SilkS")
+  (fp_text user "NanoBCU V2" (at 0.635 5.08 90 unlocked) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
     (tstamp ec5b253c-81b5-482f-b783-77f1c2eeb5c1)
   )
