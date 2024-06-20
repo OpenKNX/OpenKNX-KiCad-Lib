@@ -1,7 +1,6 @@
 (footprint "NanoBCU2_Vertical_Slot" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "OpenKNX NanoBCU2")
-  (attr through_hole)
   (fp_text reference "REF**" (at 0 -2.6) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp f4d77cf8-5f18-4d2e-923e-9a712f6611f5)
