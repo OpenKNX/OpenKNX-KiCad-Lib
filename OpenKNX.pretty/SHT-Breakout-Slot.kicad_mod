@@ -1,0 +1,233 @@
+(footprint "SHT-Breakout-Slot"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.4 -4.4 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "72ea1129-0cce-4af6-b491-b0c394450f54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SHT-Breakout-Slot"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a087e45f-8946-423b-8cbf-164c0d3352cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc522fd4-c1c8-42c0-801d-f3228b8ed0c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ffe14aa-b6c5-4b61-abdf-1e6cde93511c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db9f39f6-80a2-43fd-881c-d25a504bc0be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.4 -9.1)
+		(end -1.4 1.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ee3ad245-dc9f-4643-b50c-2f7419e6881c")
+	)
+	(fp_line
+		(start 0.2 -9.1)
+		(end 0.2 1.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cb438170-3ede-4366-bc62-8616096b4145")
+	)
+	(fp_arc
+		(start -1.4 -9.1)
+		(mid -0.6 -9.9)
+		(end 0.2 -9.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "575a2bb6-467f-4930-b747-a106b5733f68")
+	)
+	(fp_arc
+		(start 0.2 1.4)
+		(mid -0.6 2.2)
+		(end -1.4 1.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "80744b8d-336d-4c20-a0b0-1de84859cb0b")
+	)
+	(fp_rect
+		(start -1.5 -8.6)
+		(end 2.2 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "B.CrtYd")
+		(uuid "eeb4848e-e7c0-47e8-9343-c7977bca6818")
+	)
+	(fp_rect
+		(start -1.5 -10)
+		(end 0.3 2.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "fc5a3c62-4e99-47dc-ac75-d722fc4f341d")
+	)
+	(fp_text user "SCL"
+		(at 0.635 -5.08 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a30c813b-e091-42fa-bf27-ab988f82e0e3")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "Vin"
+		(at 0.635 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "be771fb3-8038-428e-a1c6-14d16f282644")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "SDA"
+		(at 0.635 -7.62 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d44c732a-1a7d-4c07-8e40-b10b4827c08b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "GND"
+		(at 0.635 -2.54 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d6aa7a6e-443d-4ad9-ba00-9359c54f288b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1e4d1e88-12cb-4d24-bbad-554e7fa16c8c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.27 0)
+		(size 1.524 1.524)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "68b40d1f-c4d0-4ef9-8b33-b4b5a8429ab0")
+	)
+	(pad "2" smd rect
+		(at 1.27 -2.54)
+		(size 1.524 1.524)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "8900561d-219a-4b56-98b0-334500db5973")
+	)
+	(pad "3" smd rect
+		(at 1.27 -5.08)
+		(size 1.524 1.524)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "ad289299-5bfe-4c9a-8281-331cb0873d08")
+	)
+	(pad "4" smd rect
+		(at 1.27 -7.62)
+		(size 1.524 1.524)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "bbdcfbb4-b72b-46a0-8a88-f71723b2a4a4")
+	)
+	(model "${OPENKNX_3D}/SHTxx_woPins.step"
+		(offset
+			(xyz -1.4 -60.5 -93.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 90 180)
+		)
+	)
+)
