@@ -1,10 +1,10 @@
 (footprint "SHT-Breakout-Slot"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 1.4 -4.4 90)
+		(at -2.2 -4.4 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "72ea1129-0cce-4af6-b491-b0c394450f54")
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "a087e45f-8946-423b-8cbf-164c0d3352cf")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "dc522fd4-c1c8-42c0-801d-f3228b8ed0c0")
 		(effects
 			(font
 				(size 1 1)
@@ -116,7 +103,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.CrtYd")
 		(uuid "eeb4848e-e7c0-47e8-9343-c7977bca6818")
 	)
@@ -127,7 +114,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "fc5a3c62-4e99-47dc-ac75-d722fc4f341d")
 	)
@@ -196,29 +183,30 @@
 		)
 	)
 	(pad "1" smd rect
-		(at 1.27 0)
+		(at 1.17 0)
 		(size 1.524 1.524)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "68b40d1f-c4d0-4ef9-8b33-b4b5a8429ab0")
 	)
 	(pad "2" smd rect
-		(at 1.27 -2.54)
+		(at 1.17 -2.54)
 		(size 1.524 1.524)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "8900561d-219a-4b56-98b0-334500db5973")
 	)
 	(pad "3" smd rect
-		(at 1.27 -5.08)
+		(at 1.17 -5.08)
 		(size 1.524 1.524)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "ad289299-5bfe-4c9a-8281-331cb0873d08")
 	)
 	(pad "4" smd rect
-		(at 1.27 -7.62)
+		(at 1.17 -7.62)
 		(size 1.524 1.524)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "bbdcfbb4-b72b-46a0-8a88-f71723b2a4a4")
 	)
+	(embedded_fonts no)
 	(model "${OPENKNX_3D}/SHTxx_woPins.step"
 		(offset
 			(xyz -1.4 -60.5 -93.5)
