@@ -2997,7 +2997,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 10.16 13.97 0)
+			(at 6.604 20.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3041,8 +3041,8 @@
 		)
 		(symbol "REG1_App_Connector_0_0"
 			(rectangle
-				(start -49.53 -2.54)
-				(end 12.7 0)
+				(start -86.36 19.05)
+				(end 12.7 -12.7)
 				(stroke
 					(width 0)
 					(type solid)
@@ -3051,51 +3051,274 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start 12.7 12.7)
-				(end -49.53 -12.7)
+		)
+		(symbol "REG1_App_Connector_0_1"
+			(polyline
+				(pts
+					(xy -59.182 -5.08) (xy -59.182 12.7)
+				)
 				(stroke
 					(width 0)
-					(type solid)
+					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(rectangle
-				(start 12.7 10.16)
-				(end -49.53 7.62)
+			(polyline
+				(pts
+					(xy -57.912 12.7) (xy -57.912 12.7)
+				)
 				(stroke
 					(width 0)
-					(type solid)
+					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(rectangle
-				(start 12.7 2.54)
-				(end -49.53 5.08)
+			(polyline
+				(pts
+					(xy -54.61 -5.08) (xy -54.61 -5.08)
+				)
 				(stroke
 					(width 0)
-					(type solid)
+					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(rectangle
-				(start 12.7 -5.08)
-				(end -49.53 -2.54)
+			(polyline
+				(pts
+					(xy -54.61 -12.7) (xy -54.61 19.05)
+				)
 				(stroke
 					(width 0)
-					(type solid)
+					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(text "power from BCU"
+			(polyline
+				(pts
+					(xy 0 -5.08) (xy 0 12.7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 12.7) (xy 1.27 12.7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 19.05) (xy 5.08 -12.7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -5.08) (xy 5.08 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 12.7) (xy -86.36 12.7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 -5.08) (xy -86.36 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "REG1_App_Connector_1_1"
+			(text "REG1-ControllerESP\nGPIO Function / Pin"
+				(at -69.85 15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "KNX/24V | Vcc2 BCU/DCU"
+				(at -69.342 -11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "  -   |  -  |    -    "
+				(at -59.69 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "  -   |  -  |    -    "
+				(at -59.69 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "  -   |  -  |    -    "
+				(at -59.69 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "JTAG | ADC | BootPWM"
+				(at -59.69 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "JTAG | ADC |    -    "
+				(at -59.69 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "JTAG | ADC | BootPWM"
+				(at -59.69 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "JTAG | ADC | StrapLow"
+				(at -59.69 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(text "20"
+				(at -56.388 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "7"
+				(at -56.388 8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "8"
+				(at -56.388 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "14"
+				(at -56.388 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "13"
+				(at -56.388 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "15"
+				(at -56.388 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "12"
+				(at -56.388 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "REG1-Controller2040\nGPIO Function / Pin"
+				(at -22.86 15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "fixed 3.3V BCU"
 				(at -5.08 -8.89 0)
 				(effects
 					(font
@@ -3103,8 +3326,16 @@
 					)
 				)
 			)
-			(text "SPI0 RX  / UART0 TX  / I2C0 SDA / PWM0 A"
-				(at 5.08 11.43 0)
+			(text "var. Vcc2 BCU"
+				(at -4.572 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "SPI0 RX | UART0 TX  | I2C0 SDA | PWM0A |  -  "
+				(at -0.508 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3112,8 +3343,8 @@
 					(justify right)
 				)
 			)
-			(text "SPI0 CS  / UART0 RX  / I2C0 SCL / PWM0 B"
-				(at 5.08 8.89 0)
+			(text "SPI0 CS | UART0 RX  | I2C0 SCL | PWM0B |  -  "
+				(at -0.508 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3121,8 +3352,8 @@
 					(justify right)
 				)
 			)
-			(text "SPI0 SCK / UART0 CTS / I2C1 SDA / PWM1 A"
-				(at 5.08 6.35 0)
+			(text "SPI0 SCK | UART0 CTS | I2C1 SDA | PWM1A |  -  "
+				(at -0.508 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3130,8 +3361,8 @@
 					(justify right)
 				)
 			)
-			(text "SPI1 SCK / UART1 CTS / I2C1 SDA / PWM5 A / ADC0"
-				(at 5.08 3.81 0)
+			(text "SPI1 SCK | UART1 CTS | I2C1 SDA | PWM5A | ADC0"
+				(at -0.508 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3139,8 +3370,8 @@
 					(justify right)
 				)
 			)
-			(text "SPI1 TX  / UART1 RTS / I2C1 SCL / PWM5 B / ADC1"
-				(at 5.08 1.27 0)
+			(text "SPI1 TX | UART1 RTS | I2C1 SCL | PWM5B | ADC1"
+				(at -0.508 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3148,8 +3379,8 @@
 					(justify right)
 				)
 			)
-			(text "SPI1 RX  / UART0 TX  / I2C0 SDA / PWM6 A / ADC2"
-				(at 5.08 -1.27 0)
+			(text "SPI1 RX | UART0 TX  | I2C0 SDA | PWM6A | ADC2"
+				(at -0.508 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3157,8 +3388,8 @@
 					(justify right)
 				)
 			)
-			(text "SPI1 CS  / UART0 RX  / I2C0 SCL / PWM6 B / ADC3"
-				(at 5.08 -3.81 0)
+			(text "SPI1 CS | UART0 RX  | I2C0 SCL | PWM6B | ADC3"
+				(at -0.508 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3166,12 +3397,130 @@
 					(justify right)
 				)
 			)
-		)
-		(symbol "REG1_App_Connector_1_1"
+			(text "16"
+				(at 2.794 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "17"
+				(at 2.794 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "18"
+				(at 2.794 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "26"
+				(at 2.794 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "27"
+				(at 2.794 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "28"
+				(at 2.794 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "29"
+				(at 2.794 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "REG1-\nApp-\nPin"
+				(at 9.144 15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "7"
+				(at 9.144 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "6"
+				(at 9.144 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "5"
+				(at 9.144 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "4"
+				(at 9.144 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "3"
+				(at 9.144 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "2"
+				(at 9.144 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "1"
+				(at 9.144 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(pin bidirectional line
 				(at 15.24 11.43 180)
 				(length 2.54)
-				(name "GP16"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3189,7 +3538,7 @@
 			(pin bidirectional line
 				(at 15.24 8.89 180)
 				(length 2.54)
-				(name "GP17"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3207,7 +3556,7 @@
 			(pin bidirectional line
 				(at 15.24 6.35 180)
 				(length 2.54)
-				(name "GP18"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3225,7 +3574,7 @@
 			(pin bidirectional line
 				(at 15.24 3.81 180)
 				(length 2.54)
-				(name "GP26"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3243,7 +3592,7 @@
 			(pin bidirectional line
 				(at 15.24 1.27 180)
 				(length 2.54)
-				(name "GP27"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3261,7 +3610,7 @@
 			(pin bidirectional line
 				(at 15.24 -1.27 180)
 				(length 2.54)
-				(name "GP28"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3279,7 +3628,7 @@
 			(pin bidirectional line
 				(at 15.24 -3.81 180)
 				(length 2.54)
-				(name "GP29"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
